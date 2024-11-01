@@ -14,5 +14,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
-| [1302-delete-characters-to-make-fancy-string](https://github.com/swarupcs/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1957-delete-characters-to-make-fancy-string](https://github.com/swarupcs/LeetCode/tree/master/1957-delete-characters-to-make-fancy-string) |
 <!---LeetCode Topics End-->
