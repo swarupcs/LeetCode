@@ -21,5 +21,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String Matching
 |  |
 | ------- |
-| [0812-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0812-rotate-string) |
+| [0796-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
