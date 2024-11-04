@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0812-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0812-rotate-string) |
 | [1957-delete-characters-to-make-fancy-string](https://github.com/swarupcs/LeetCode/tree/master/1957-delete-characters-to-make-fancy-string) |
 | [2580-circular-sentence](https://github.com/swarupcs/LeetCode/tree/master/2580-circular-sentence) |
+| [3451-string-compression-iii](https://github.com/swarupcs/LeetCode/tree/master/3451-string-compression-iii) |
 ## String Matching
 |  |
 | ------- |
