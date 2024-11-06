@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/swarupcs/LeetCode/tree/master/0001-two-sum) |
+| [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Hash Table
 |  |
 | ------- |
@@ -23,4 +24,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0796-rotate-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
+## Sorting
+|  |
+| ------- |
+| [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 <!---LeetCode Topics End-->
