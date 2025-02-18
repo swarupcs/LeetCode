@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/swarupcs/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0796-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0796-rotate-string) |
 | [1957-delete-characters-to-make-fancy-string](https://github.com/swarupcs/LeetCode/tree/master/1957-delete-characters-to-make-fancy-string) |
 | [2490-circular-sentence](https://github.com/swarupcs/LeetCode/tree/master/2490-circular-sentence) |
