@@ -8,6 +8,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/swarupcs/LeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
+| [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1940-maximum-xor-for-each-query](https://github.com/swarupcs/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/swarupcs/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -19,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/swarupcs/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0796-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0796-rotate-string) |
 | [1957-delete-characters-to-make-fancy-string](https://github.com/swarupcs/LeetCode/tree/master/1957-delete-characters-to-make-fancy-string) |
 | [2490-circular-sentence](https://github.com/swarupcs/LeetCode/tree/master/2490-circular-sentence) |
@@ -63,6 +68,40 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+## Depth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
+| [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1073-number-of-enclaves) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
+| [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
+| [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1073-number-of-enclaves) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1073-number-of-enclaves) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
+## Matrix
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
+| [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1073-number-of-enclaves) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
 <!---LeetCode Topics End-->
 
 
