@@ -1,48 +1,70 @@
 class Solution {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> wordSet=new HashSet<>(wordList);
-        if(!wordSet.contains(endWord)) return 0;  // endWord must be in wordList
+    static class Pair{
+        String word;
+        int steps;
 
-        Set<String> beginSet = new HashSet<>(), endSet = new HashSet<>();
-        beginSet.add(beginWord);
-        endSet.add(endWord);
-        int count = 1;
+        Pair(String word, int steps) {
+            this.word = word;
+            this.steps = steps;
+        }
+    }
 
-        while(!beginSet.isEmpty() || !endSet.isEmpty()){
-            // Always expand the smaller set
-            if(beginSet.size() > endSet.size()){
-                Set<String> temp = beginSet;
-                beginSet = endSet;
-                endSet=temp;
+    private int bfs(String beginWord, String endWord, Set<String> wordSet) {
+        Queue<Pair> queue = new LinkedList<>();
+
+        queue.add(new Pair(beginWord, 1));
+
+        wordSet.remove(beginWord);
+
+        while(!queue.isEmpty()) {
+
+            String word = queue.peek().word;
+            int steps = queue.peek().steps;
+
+            queue.poll();
+
+            if(word.equals(endWord)) {
+                return steps;
             }
 
-            Set<String> nextLevel = new HashSet<>();
-            for(String word : beginSet){
-                char[] wordCh = word.toCharArray();
-                for(int i=0; i<wordCh.length; i++){
-                    char org = wordCh[i];
+            // Iterate through every character in the word
+            for (int i = 0; i < word.length(); i++) {
 
-                    for(char c = 'a'; c <= 'z'; c++){
-                        if(c==org)continue;   // Skip same letter
-                        wordCh[i]=c;
-                        String nWord = new String(wordCh);
+                // Convert word to character array for easy modification
+                char[] wordArray = word.toCharArray();
 
-                        if(endSet.contains(nWord))return count + 1;
-                        if(wordSet.contains(nWord)){
-                            nextLevel.add(nWord);
-                            wordSet.remove(nWord);    // Remove immediately to prevent duplicate processing
-                        }
+                // Try replacing it with every letter from 'a' to 'z'
+                for (char ch = 'a'; ch <= 'z'; ch++) {
+
+                    // Skip if the letter is same as the original
+                    if (wordArray[i] == ch) continue;
+
+                    // Create a new word by modifying one character
+                    wordArray[i] = ch;
+                    String newWord = new String(wordArray);
+
+                    // Check if the modified word exists in the set
+                    if (wordSet.contains(newWord)) {
+
+                        // Remove the word from set to avoid revisiting
+                        wordSet.remove(newWord);
+
+                        // Push the new word with incremented step count
+                        queue.add(new Pair(newWord, steps + 1));
                     }
-
-                    wordCh[i] = org;    // Restore character
                 }
             }
-            if (nextLevel.isEmpty()) return 0;           // No valid transformation
-            beginSet = nextLevel;
-            count++;
+        }
+        return 0;
+    }
+
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> wordSet = new HashSet<>(wordList);
+
+        if(!wordSet.contains(endWord)) {
+            return 0;
         }
 
-        return 0;
-
+        return bfs(beginWord, endWord, wordSet);        
     }
 }
