@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/swarupcs/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1940-maximum-xor-for-each-query](https://github.com/swarupcs/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/swarupcs/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/swarupcs/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/swarupcs/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Union Find
 |  |
 | ------- |
@@ -116,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/swarupcs/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Dynamic Programming
 |  |
 | ------- |
