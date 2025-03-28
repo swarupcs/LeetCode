@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/swarupcs/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/swarupcs/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/swarupcs/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Matrix
 |  |
 | ------- |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/swarupcs/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Topological Sort
 |  |
 | ------- |
@@ -138,6 +140,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
+## Shortest Path
+|  |
+| ------- |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/swarupcs/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 <!---LeetCode Topics End-->
 
 
