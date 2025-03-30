@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/swarupcs/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/swarupcs/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/swarupcs/LeetCode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
@@ -99,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/swarupcs/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/swarupcs/LeetCode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
 |  |
@@ -107,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/swarupcs/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/swarupcs/LeetCode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
@@ -115,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/swarupcs/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/swarupcs/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/swarupcs/LeetCode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/swarupcs/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/swarupcs/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Matrix
