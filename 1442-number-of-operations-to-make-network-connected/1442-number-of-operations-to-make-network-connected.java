@@ -2,17 +2,18 @@ class Solution {
     public int makeConnected(int n, int[][] connections) {
         int size = connections.length; // Number of edges in the graph
 
-
+        // Step 1: If edges are less than (n-1), connection is impossible
         if (size < n - 1) return -1;
 
-
+        // Step 2: Initialize Disjoint Set for `n` nodes
         DisjointSet ds = new DisjointSet(n);
 
+        // Step 3: Process each edge and merge components
         for (int i = 0; i < size; i++) {
             ds.unionByRank(connections[i][0], connections[i][1]); // Connect edge nodes
         }
 
-
+        // Step 4: Count number of connected components
         int count = 0;
         for (int i = 0; i < n; i++) {
             if (ds.findUPar(i) == i) // If node is an ultimate parent, it's a component
