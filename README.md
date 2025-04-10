@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/swarupcs/LeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
+| [0485-max-consecutive-ones](https://github.com/swarupcs/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
