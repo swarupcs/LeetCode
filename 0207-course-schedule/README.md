@@ -66,68 +66,66 @@ We will use **Kahn’s Algorithm (BFS-based Topological Sorting)** to check for 
 
 ## **Code with Step-by-Step Explanation**
 ```java
-import java.util.*;
-
 class Solution {
+
+    // Main function to check if it's possible to finish all courses
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // Step 1: Create adjacency list representation of the graph
+        // Step 1: Build the adjacency list from the prerequisites
         List<List<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < numCourses; i++) {
             adj.add(new ArrayList<>());
         }
 
-        // Step 2: Compute in-degree (number of prerequisites) for each course
+        // Step 2: Compute in-degree of each node
         int[] inDegree = new int[numCourses];
-
         for (int[] prerequisite : prerequisites) {
             int course = prerequisite[0];
             int prerequisiteCourse = prerequisite[1];
-            adj.get(prerequisiteCourse).add(course); // Directed edge from prerequisiteCourse -> course
-            inDegree[course]++; // Increase in-degree of the course
+            adj.get(prerequisiteCourse).add(course);   // Edge: prerequisite → course
+            inDegree[course]++;                         // Count this prerequisite
         }
 
-        // Step 3: Add all courses with zero in-degree to the queue
+        // Step 3: Use BFS-based topological sort to detect if a cycle exists
+        return topologicalSortBFS(numCourses, adj, inDegree);
+    }
+
+    // BFS-based topological sort using Kahn's Algorithm
+    private boolean topologicalSortBFS(int numCourses, List<List<Integer>> adj, int[] inDegree) {
+        // Queue to store all nodes with in-degree 0
         Queue<Integer> queue = new LinkedList<>();
+
+        // Step 1: Enqueue all courses with no prerequisites
         for (int i = 0; i < numCourses; i++) {
             if (inDegree[i] == 0) {
                 queue.add(i);
             }
         }
 
-        // Step 4: Process courses using BFS (Topological Sorting)
+        // Step 2: Track how many courses we can process
         int processedCourses = 0;
+
+        // Step 3: Process courses in topological order
         while (!queue.isEmpty()) {
-            int currentCourse = queue.poll();
-            processedCourses++; // Mark course as processed
-            
-            // Reduce in-degree of dependent courses
-            for (int neighbor : adj.get(currentCourse)) {
-                inDegree[neighbor]--; // Reduce in-degree
-                
-                // If in-degree becomes zero, add to queue
+            int current = queue.poll();
+            processedCourses++; // This course is now "completed"
+
+            // Visit all neighbors (dependent courses)
+            for (int neighbor : adj.get(current)) {
+                inDegree[neighbor]--; // Remove one prerequisite
+
+                // If in-degree becomes 0, it's ready to be taken
                 if (inDegree[neighbor] == 0) {
                     queue.add(neighbor);
                 }
             }
         }
 
-        // Step 5: Check if all courses were processed
+        // Step 4: If we processed all courses, return true
         return processedCourses == numCourses;
     }
 
-    // Driver code to test the function
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        int numCourses1 = 2;
-        int[][] prerequisites1 = {{1, 0}};
-        System.out.println(sol.canFinish(numCourses1, prerequisites1)); // Output: true
-
-        int numCourses2 = 2;
-        int[][] prerequisites2 = {{1, 0}, {0, 1}};
-        System.out.println(sol.canFinish(numCourses2, prerequisites2)); // Output: false
-    }
 }
+
 ```
 
 ---
