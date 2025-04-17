@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/swarupcs/LeetCode/tree/master/0001-two-sum) |
+| [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
@@ -37,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/swarupcs/LeetCode/tree/master/0008-string-to-integer-atoi) |
+| [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
 | [0796-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0796-rotate-string) |
@@ -109,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/swarupcs/LeetCode/tree/master/0207-course-schedule) |
@@ -192,6 +195,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
+## Backtracking
+|  |
+| ------- |
+| [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 <!---LeetCode Topics End-->
 
 
