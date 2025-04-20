@@ -1,59 +1,77 @@
+import java.util.*;
+
 class Solution {
 
-    // Main function to check if it's possible to finish all courses
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // Step 1: Build the adjacency list from the prerequisites
-        List<List<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < numCourses; i++) {
-            adj.add(new ArrayList<>());
-        }
+    // Helper function to perform Topological Sort using Kahn's Algorithm
+    private int[] topoSort(int N, ArrayList<Integer>[] adj) {
 
-        // Step 2: Compute in-degree of each node
-        int[] inDegree = new int[numCourses];
-        for (int[] prerequisite : prerequisites) {
-            int course = prerequisite[0];
-            int prerequisiteCourse = prerequisite[1];
-            adj.get(prerequisiteCourse).add(course);   // Edge: prerequisite → course
-            inDegree[course]++;                         // Count this prerequisite
-        }
+        // Step 1: Create inDegree array to store count of incoming edges for each node
+        int[] inDegree = new int[N];
 
-        // Step 3: Use BFS-based topological sort to detect if a cycle exists
-        return topologicalSortBFS(numCourses, adj, inDegree);
-    }
-
-    // BFS-based topological sort using Kahn's Algorithm
-    private boolean topologicalSortBFS(int numCourses, List<List<Integer>> adj, int[] inDegree) {
-        // Queue to store all nodes with in-degree 0
-        Queue<Integer> queue = new LinkedList<>();
-
-        // Step 1: Enqueue all courses with no prerequisites
-        for (int i = 0; i < numCourses; i++) {
-            if (inDegree[i] == 0) {
-                queue.add(i);
+        // Step 2: Calculate in-degree for each node
+        for (int i = 0; i < N; i++) {
+            for (int neighbor : adj[i]) {
+                inDegree[neighbor]++;  // Increment in-degree of the neighbor
             }
         }
 
-        // Step 2: Track how many courses we can process
-        int processedCourses = 0;
+        // Step 3: Add all nodes with in-degree 0 to the queue (no prerequisites)
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < N; i++) {
+            if (inDegree[i] == 0) {
+                queue.add(i); // Course with no prerequisites
+            }
+        }
 
-        // Step 3: Process courses in topological order
+        // Step 4: Prepare a result array to store topological order
+        int[] result = new int[N];
+        int index = 0; // Index for result array
+
+        // Step 5: Process nodes with in-degree 0
         while (!queue.isEmpty()) {
-            int current = queue.poll();
-            processedCourses++; // This course is now "completed"
+            int node = queue.poll();  // Remove the front node from the queue
 
-            // Visit all neighbors (dependent courses)
-            for (int neighbor : adj.get(current)) {
-                inDegree[neighbor]--; // Remove one prerequisite
+            result[index++] = node;  // Add node to topological order
 
-                // If in-degree becomes 0, it's ready to be taken
+            // Decrease the in-degree of neighboring nodes
+            for (int neighbor : adj[node]) {
+                inDegree[neighbor]--;
+
+                // If in-degree becomes 0, add to queue
                 if (inDegree[neighbor] == 0) {
                     queue.add(neighbor);
                 }
             }
         }
 
-        // Step 4: If we processed all courses, return true
-        return processedCourses == numCourses;
+        // Step 6: Return only the filled portion of result (length may be < N if cycle exists)
+        return Arrays.copyOfRange(result, 0, index);
     }
 
+    // Main function to determine if all courses can be finished
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+
+        // Step 1: Build adjacency list for directed graph
+        ArrayList<Integer>[] adj = new ArrayList[numCourses];
+
+        // Initialize list for each course
+        for (int i = 0; i < numCourses; i++) {
+            adj[i] = new ArrayList<>();
+        }
+
+        // Step 2: Fill adjacency list
+        // Edge: prerequisite -> course
+        for (int[] pair : prerequisites) {
+            int course = pair[0];
+            int prerequisite = pair[1];
+
+            adj[prerequisite].add(course);
+        }
+
+        // Step 3: Perform Topological Sort
+        int[] topoOrder = topoSort(numCourses, adj);
+
+        // Step 4: If the topo order contains all courses, return true (no cycle)
+        return topoOrder.length == numCourses;
+    }
 }
