@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
+| [0152-maximum-product-subarray](https://github.com/swarupcs/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
 | [0485-max-consecutive-ones](https://github.com/swarupcs/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -171,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0152-maximum-product-subarray](https://github.com/swarupcs/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/swarupcs/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/swarupcs/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
