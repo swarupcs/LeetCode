@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/swarupcs/LeetCode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/swarupcs/LeetCode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
@@ -209,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
 ## Backtracking
 |  |
