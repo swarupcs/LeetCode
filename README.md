@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/swarupcs/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [1940-maximum-xor-for-each-query](https://github.com/swarupcs/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/swarupcs/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Hash Table
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -219,6 +221,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
 
 
