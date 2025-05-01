@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/swarupcs/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [1940-maximum-xor-for-each-query](https://github.com/swarupcs/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/swarupcs/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/swarupcs/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/swarupcs/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Counting
 |  |
@@ -92,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0784-insert-into-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/swarupcs/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Binary Tree
 |  |
 | ------- |
@@ -225,6 +228,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
+## Greedy
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/swarupcs/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/swarupcs/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/swarupcs/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 <!---LeetCode Topics End-->
 
 
