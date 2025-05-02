@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
 | [0796-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0796-rotate-string) |
+| [0868-push-dominoes](https://github.com/swarupcs/LeetCode/tree/master/0868-push-dominoes) |
 | [1957-delete-characters-to-make-fancy-string](https://github.com/swarupcs/LeetCode/tree/master/1957-delete-characters-to-make-fancy-string) |
 | [2490-circular-sentence](https://github.com/swarupcs/LeetCode/tree/master/2490-circular-sentence) |
 | [3163-string-compression-iii](https://github.com/swarupcs/LeetCode/tree/master/3163-string-compression-iii) |
@@ -108,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
+| [0868-push-dominoes](https://github.com/swarupcs/LeetCode/tree/master/0868-push-dominoes) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Depth-First Search
 |  |
@@ -189,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0119-pascals-triangle-ii](https://github.com/swarupcs/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0152-maximum-product-subarray](https://github.com/swarupcs/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
+| [0868-push-dominoes](https://github.com/swarupcs/LeetCode/tree/master/0868-push-dominoes) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/swarupcs/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/swarupcs/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Topological Sort
