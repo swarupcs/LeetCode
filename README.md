@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/swarupcs/LeetCode/tree/master/0008-string-to-integer-atoi) |
+| [0020-valid-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0020-valid-parentheses) |
 | [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
@@ -250,6 +251,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/swarupcs/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
 
 
