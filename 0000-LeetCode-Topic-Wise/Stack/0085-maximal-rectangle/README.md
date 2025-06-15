@@ -207,5 +207,3 @@ The largest rectangle area containing all 1s is: 6
   * `O(n * m)` for prefix matrix
 
 ---
-
-Let me know if you'd like the same code using `char[][] matrix` input as in the Leetcode version.
