@@ -1,237 +1,109 @@
 class Solution {
-    /* Function to find the indices of 
-    next smaller elements */
+
+    // Function to find the Next Smaller Element (NSE) index for each element in the array
     private int[] findNSE(int[] arr) {
-        
-        // Size of array
-        int n = arr.length;
-        
-        // To store the answer
-        int[] ans = new int[n];
-        
-        // Stack 
-        Stack<Integer> st = new Stack<>();
-        
-        // Start traversing from the back
+        int n = arr.length; // Get the length of the array
+        int[] ans = new int[n]; // Initialize answer array
+        Stack<Integer> st = new Stack<>(); // Stack to store indices
+
+        // Traverse from right to left
         for (int i = n - 1; i >= 0; i--) {
-            
-            // Get the current element
-            int currEle = arr[i];
-            
-            /* Pop the elements in the stack until 
-            the stack is not empty and the top 
-            element is not the smaller element */
-            while (!st.isEmpty() && arr[st.peek()] >= currEle) {
+            // Pop elements from stack while current element is smaller
+            while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
                 st.pop();
             }
-            
-            // Update the answer
+            // If stack is not empty, top is the NSE index; else it's n
             ans[i] = !st.isEmpty() ? st.peek() : n;
-            
-            /* Push the index of current 
-            element in the stack */
-            st.push(i);
+            st.push(i); // Push current index to stack
         }
-        
-        // Return the answer
-        return ans;
+        return ans; // Return NSE index array
     }
-    
-    /* Function to find the indices of 
-    next greater elements */
-    private int[] findNGE(int[] arr) {
-        
-        // Size of array
-        int n = arr.length;
-        
-        // To store the answer
-        int[] ans = new int[n];
-        
-        // Stack 
-        Stack<Integer> st = new Stack<>();
-        
-        // Start traversing from the back
-        for (int i = n - 1; i >= 0; i--) {
-            
-            // Get the current element
-            int currEle = arr[i];
-            
-            /* Pop the elements in the stack until 
-            the stack is not empty and the top 
-            element is not the greater element */
-            while (!st.isEmpty() && arr[st.peek()] <= currEle) {
-                st.pop();
-            }
-            
-            // Update the answer
-            ans[i] = !st.isEmpty() ? st.peek() : n;
-            
-            /* Push the index of current 
-            element in the stack */
-            st.push(i);
-        }
-        
-        // Return the answer
-        return ans;
-    }
-    
-    /* Function to find the indices of 
-    previous smaller or equal elements */
+
+    // Function to find the Previous Smaller or Equal Element (PSEE) index
     private int[] findPSEE(int[] arr) {
-        
-        // Size of array
         int n = arr.length;
-        
-        // To store the answer
         int[] ans = new int[n];
-        
-        // Stack 
         Stack<Integer> st = new Stack<>();
-        
-        // Traverse on the array
+
+        // Traverse from left to right
         for (int i = 0; i < n; i++) {
-            
-            // Get the current element
-            int currEle = arr[i];
-            
-            /* Pop the elements in the stack until 
-            the stack is not empty and the top 
-            elements are greater than the current element */
-            while (!st.isEmpty() && arr[st.peek()] > currEle) {
-                st.pop();
+            while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
+                st.pop(); // Pop elements greater than current
             }
-            
-            // Update the answer
-            ans[i] = !st.isEmpty() ? st.peek() : -1;
-            
-            /* Push the index of current 
-            element in the stack */
-            st.push(i);
+            ans[i] = !st.isEmpty() ? st.peek() : -1; // Store index or -1
+            st.push(i); // Push current index
         }
-        
-        // Return the answer
-        return ans;
+        return ans; // Return PSEE index array
     }
-    
-    /* Function to find the indices of 
-    previous greater or equal elements */
+
+    // Function to find the Next Greater Element (NGE) index
+    private int[] findNGE(int[] arr) {
+        int n = arr.length;
+        int[] ans = new int[n];
+        Stack<Integer> st = new Stack<>();
+
+        // Traverse from right to left
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.isEmpty() && arr[st.peek()] <= arr[i]) {
+                st.pop(); // Pop elements smaller than current
+            }
+            ans[i] = !st.isEmpty() ? st.peek() : n; // Store index or n
+            st.push(i); // Push current index
+        }
+        return ans; // Return NGE index array
+    }
+
+    // Function to find the Previous Greater or Equal Element (PGEE) index
     private int[] findPGEE(int[] arr) {
-        
-        // Size of array
         int n = arr.length;
-        
-        // To store the answer
         int[] ans = new int[n];
-        
-        // Stack 
         Stack<Integer> st = new Stack<>();
-        
-        // Traverse on the array
+
+        // Traverse from left to right
         for (int i = 0; i < n; i++) {
-            
-            // Get the current element
-            int currEle = arr[i];
-            
-            /* Pop the elements in the stack until 
-            the stack is not empty and the top 
-            elements are smaller than the current element */
-            while (!st.isEmpty() && arr[st.peek()] < currEle) {
-                st.pop();
+            while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
+                st.pop(); // Pop elements smaller than current
             }
-            
-            // Update the answer
-            ans[i] = !st.isEmpty() ? st.peek() : -1;
-            
-            /* Push the index of current 
-            element in the stack */
-            st.push(i);
+            ans[i] = !st.isEmpty() ? st.peek() : -1; // Store index or -1
+            st.push(i); // Push current index
         }
-        
-        // Return the answer
-        return ans;
+        return ans; // Return PGEE index array
     }
-    
-    /* Function to find the sum of the 
-    minimum value in each subarray */
+
+    // Function to calculate the sum of subarray minimums
     private long sumSubarrayMins(int[] arr) {
-        
-        int[] nse = findNSE(arr);
-        
-        int[] psee = findPSEE(arr);
-        
-        // Size of array
-        int n = arr.length;
-        
-        // To store the sum
-        long sum = 0;
-        
-        // Traverse on the array
-        for (int i = 0; i < n; i++) {
-            
-            // Count of first type of subarrays
-            int left = i - psee[i];
-            
-            // Count of second type of subarrays
-            int right = nse[i] - i;
-            
-            /* Count of subarrays where 
-            current element is minimum */
-            long freq = left * right * 1L;
-            
-            // Contribution due to current element 
-            long val = (freq * arr[i] * 1L);
-            
-            // Updating the sum
-            sum += val;
+        int[] nse = findNSE(arr); // Get Next Smaller Element indices
+        int[] psee = findPSEE(arr); // Get Previous Smaller or Equal indices
+        long sum = 0; // Initialize sum
+
+        for (int i = 0; i < arr.length; i++) {
+            long left = i - psee[i]; // Elements to the left where arr[i] is min
+            long right = nse[i] - i; // Elements to the right where arr[i] is min
+            long count = left * right; // Total subarrays where arr[i] is min
+            sum += arr[i] * count; // Add contribution of arr[i]
         }
-        
-        // Return the computed sum
-        return sum;
+        return sum; // Return total sum of subarray minimums
     }
-    
-    /* Function to find the sum of the 
-    maximum value in each subarray */
+
+    // Function to calculate the sum of subarray maximums
     private long sumSubarrayMaxs(int[] arr) {
-        
-        int[] nge = findNGE(arr);
-        
-        int[] pgee = findPGEE(arr);
-        
-        // Size of array
-        int n = arr.length;
-        
-        // To store the sum
-        long sum = 0;
-        
-        // Traverse on the array
-        for (int i = 0; i < n; i++) {
-            
-            // Count of first type of subarrays
-            int left = i - pgee[i];
-            
-            // Count of second type of subarrays
-            int right = nge[i] - i;
-            
-            /* Count of subarrays where 
-            current element is maximum */
-            long freq = left * right * 1L;
-            
-            // Contribution due to current element 
-            long val = (freq * arr[i] * 1L);
-            
-            // Updating the sum
-            sum += val;
+        int[] nge = findNGE(arr); // Get Next Greater Element indices
+        int[] pgee = findPGEE(arr); // Get Previous Greater or Equal indices
+        long sum = 0; // Initialize sum
+
+        for (int i = 0; i < arr.length; i++) {
+            long left = i - pgee[i]; // Elements to the left where arr[i] is max
+            long right = nge[i] - i; // Elements to the right where arr[i] is max
+            long count = left * right; // Total subarrays where arr[i] is max
+            sum += arr[i] * count; // Add contribution of arr[i]
         }
-        
-        // Return the computed sum
-        return sum;
+        return sum; // Return total sum of subarray maximums
     }
-    
-    /* Function to find the sum of 
-    subarray ranges in each subarray */
-    public long subArrayRanges(int[] nums) {
-        // Return the result
-        return ( sumSubarrayMaxs(nums) - 
-                 sumSubarrayMins(nums) );
+
+    // Main function to compute the sum of all subarray ranges
+    public long subArrayRanges(int[] arr) {
+        // Total range = sum of all max values - sum of all min values across subarrays
+        return sumSubarrayMaxs(arr) - sumSubarrayMins(arr);
     }
+
 }
