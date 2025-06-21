@@ -1,45 +1,44 @@
 import java.util.Stack;
 
 class Solution {
-    // Main function to validate brackets
-    public boolean isValid(String s) {
-        // Step 1: Initialize a stack to keep track of opening brackets
-        Stack<Character> stack = new Stack<>();
 
-        // Step 2: Traverse the string character by character
-        for (int i = 0; i < s.length(); i++) {
-            char currentChar = s.charAt(i);
+    // Helper function to check if open and close brackets match
+    private boolean isMatched(char open, char close) {
+        // Match pairs of brackets
+        return (open == '(' && close == ')') ||
+               (open == '[' && close == ']') ||
+               (open == '{' && close == '}');
+    }
 
-            // Step 3: If current character is an opening bracket, push onto stack
-            if (currentChar == '(' || currentChar == '{' || currentChar == '[') {
-                stack.push(currentChar);
+    // Main function to check if the input string is valid
+    public boolean isValid(String str) {
+
+        // Step 1: Create a stack to keep track of opening brackets
+        Stack<Character> st = new Stack<>();
+
+        // Step 2: Traverse each character in the string
+        for (int i = 0; i < str.length(); i++) {
+            char currentChar = str.charAt(i);
+
+            // Step 3: If it's an opening bracket, push to stack
+            if (currentChar == '(' || currentChar == '[' || currentChar == '{') {
+                st.push(currentChar);
             } 
-            // Step 4: If current character is a closing bracket
+            // Step 4: If it's a closing bracket
             else {
-                // Step 4a: If stack is empty, no matching opening bracket exists
-                if (stack.isEmpty()) {
-                    return false;
-                }
+                // Step 4.1: If stack is empty, it's an unmatched closing bracket
+                if (st.isEmpty()) return false;
 
-                // Step 4b: Pop the top opening bracket from the stack
-                char topChar = stack.pop();
+                // Step 4.2: Pop the top element (opening bracket)
+                char top = st.pop();
 
-                // Step 4c: Check if the opening and closing brackets match using helper function
-                if (!isMatched(topChar, currentChar)) {
-                    return false;
-                }
+                // Step 4.3: Check if brackets match
+                if (!isMatched(top, currentChar)) return false;
             }
         }
 
-        // Step 5: If stack is empty at the end, all brackets matched properly
-        return stack.isEmpty();
+        // Step 5: If stack is empty, all brackets matched, return true
+        return st.isEmpty();
     }
 
-    // Helper function to check if a pair of brackets match
-    private boolean isMatched(char open, char close) {
-        // Match corresponding opening and closing brackets
-        return (open == '(' && close == ')') ||
-               (open == '{' && close == '}') ||
-               (open == '[' && close == ']');
-    }
 }
