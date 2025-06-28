@@ -37,23 +37,7 @@
 <p><code>n = 9</code> since there are 9 numbers, so all numbers are in the range <code>[0,9]</code>. 8 is the missing number in the range since it does not appear in <code>nums</code>.</p>
 </div>
 
-<div class="simple-translate-system-theme" id="simple-translate">
-<div>
-<div class="simple-translate-button isShow" style="background-image: url(&quot;moz-extension://8a9ffb6b-7e69-4e93-aae1-436a1448eff6/icons/512.png&quot;); height: 22px; width: 22px; top: 318px; left: 36px;">&nbsp;</div>
 
-<div class="simple-translate-panel " style="width: 300px; height: 200px; top: 0px; left: 0px; font-size: 13px;">
-<div class="simple-translate-result-wrapper" style="overflow: hidden;">
-<div class="simple-translate-move" draggable="true">&nbsp;</div>
-
-<div class="simple-translate-result-contents">
-<p class="simple-translate-result" dir="auto">&nbsp;</p>
-
-<p class="simple-translate-candidate" dir="auto">&nbsp;</p>
-</div>
-</div>
-</div>
-</div>
-</div>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
@@ -67,3 +51,79 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you implement a solution using only <code>O(1)</code> extra space complexity and <code>O(n)</code> runtime complexity?</p>
+
+
+
+---
+
+### ✅ **Approach:**
+
+Use the **mathematical formula** for the sum of the first `n` natural numbers.
+
+### ✅ **Intuition:**
+
+For an array of length `n`, the numbers should ideally be from `0` to `n` (inclusive). The sum of these `n+1` numbers is `n*(n+1)/2`. But one number is missing, so the actual sum of array elements will be less.
+Hence, subtracting the actual sum from the expected sum gives us the missing number.
+
+---
+
+### ✅ **Algorithm (Step-by-step):**
+
+1. Calculate `n = nums.length`
+2. Compute the expected sum using the formula: `n * (n + 1) / 2`
+3. Compute the actual sum by summing all the elements of `nums`
+4. Subtract actual sum from expected sum to find the missing number
+
+---
+
+### ✅ **Dry Run Example:**
+
+#### Input: `nums = [3, 0, 1]`
+
+* `n = 3` (length of array)
+* Expected sum = `3 * (3 + 1) / 2 = 6`
+* Actual sum = `3 + 0 + 1 = 4`
+* Missing number = `6 - 4 = 2`
+
+✅ Output: `2`
+
+---
+
+### ✅ **Code with Line-by-Line Explanation:**
+
+```java
+class Solution {
+    // Function to find the missing number in the range [0, n]
+    public int missingNumber(int[] nums) {
+        // Step 1: Get the length of the array which is 'n'
+        int n = nums.length;
+
+        // Step 2: Calculate the expected sum of first n natural numbers (0 to n)
+        // Formula: n * (n + 1) / 2
+        int expectedSum = (n * (n + 1)) / 2;
+
+        // Step 3: Calculate the actual sum of elements in the array
+        int actualSum = 0;
+        for (int num : nums) {
+            actualSum += num; // add each number to the actual sum
+        }
+
+        // Step 4: The missing number is the difference between expected and actual sum
+        int missingNumber = expectedSum - actualSum;
+
+        // Step 5: Return the missing number
+        return missingNumber;
+    }
+}
+```
+
+---
+
+### ✅ **Time & Space Complexity:**
+
+* **Time Complexity:** `O(n)` – for the loop summing the array
+* **Space Complexity:** `O(1)` – uses constant extra space
+
+---
+
+
