@@ -1,6 +1,6 @@
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
- // Step 1: Create a HashSet to store unique elements of nums1
+        // Step 1: Create a HashSet to store unique elements of nums1
         Set<Integer> set1 = new HashSet<>();
         for (int num : nums1) {
             set1.add(num);  // HashSet ensures only unique values
