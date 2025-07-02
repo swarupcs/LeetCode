@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/swarupcs/LeetCode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/swarupcs/LeetCode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/swarupcs/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/swarupcs/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
@@ -134,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/swarupcs/LeetCode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/swarupcs/LeetCode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/swarupcs/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/swarupcs/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0088-merge-sorted-array) |
