@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         // Initialize a list to store the final list of quadruplets
