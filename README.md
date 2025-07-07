@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/swarupcs/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/swarupcs/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/swarupcs/LeetCode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/swarupcs/LeetCode/tree/master/0735-asteroid-collision) |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0560-subarray-sum-equals-k](https://github.com/swarupcs/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/swarupcs/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/swarupcs/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -110,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/swarupcs/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1940-maximum-xor-for-each-query](https://github.com/swarupcs/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
 ## Tree
 |  |
