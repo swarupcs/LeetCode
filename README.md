@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2227-sum-of-subarray-ranges](https://github.com/swarupcs/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/swarupcs/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [3227-find-missing-and-repeated-values](https://github.com/swarupcs/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3291-find-if-array-can-be-sorted](https://github.com/swarupcs/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Hash Table
 |  |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/swarupcs/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/swarupcs/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/swarupcs/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [3227-find-missing-and-repeated-values](https://github.com/swarupcs/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## String
 |  |
 | ------- |
@@ -225,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/swarupcs/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [3227-find-missing-and-repeated-values](https://github.com/swarupcs/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -269,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
+| [3227-find-missing-and-repeated-values](https://github.com/swarupcs/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Backtracking
 |  |
 | ------- |
