@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0006-zigzag-conversion](https://github.com/swarupcs/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/swarupcs/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0020-valid-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0022-generate-parentheses) |
 | [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0402-remove-k-digits](https://github.com/swarupcs/LeetCode/tree/master/0402-remove-k-digits) |
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/swarupcs/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/swarupcs/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0119-pascals-triangle-ii](https://github.com/swarupcs/LeetCode/tree/master/0119-pascals-triangle-ii) |
@@ -281,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0022-generate-parentheses) |
 | [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 ## Simulation
 |  |
