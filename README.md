@@ -281,6 +281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/swarupcs/LeetCode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/swarupcs/LeetCode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/swarupcs/LeetCode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
@@ -342,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/swarupcs/LeetCode/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/swarupcs/LeetCode/tree/master/0050-powx-n) |
 ## Sliding Window
 |  |
 | ------- |
