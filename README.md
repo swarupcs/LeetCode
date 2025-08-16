@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0868-push-dominoes](https://github.com/swarupcs/LeetCode/tree/master/0868-push-dominoes) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/swarupcs/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/swarupcs/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Depth-First Search
 |  |
@@ -348,6 +349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/swarupcs/LeetCode/tree/master/0002-add-two-numbers) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/swarupcs/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
