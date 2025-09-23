@@ -43,7 +43,5 @@ var removeKdigits = function(num, k) {
         
         // Return the stored result
         return res;
-
-
     
 };
