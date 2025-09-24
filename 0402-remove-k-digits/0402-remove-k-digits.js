@@ -3,6 +3,7 @@
  * @param {number} k
  * @return {string}
  */
+
 var removeKdigits = function(num, k) {
     let st = [];
     for(let i = 0; i < num.length; i++) {
@@ -43,5 +44,4 @@ var removeKdigits = function(num, k) {
         
         // Return the stored result
         return res;
-    
 };
