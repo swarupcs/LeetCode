@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
 | [0239-sliding-window-maximum](https://github.com/swarupcs/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/swarupcs/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/swarupcs/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0503-next-greater-element-ii](https://github.com/swarupcs/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/swarupcs/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/swarupcs/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/swarupcs/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0868-push-dominoes](https://github.com/swarupcs/LeetCode/tree/master/0868-push-dominoes) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/swarupcs/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
