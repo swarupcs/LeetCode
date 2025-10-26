@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/swarupcs/LeetCode/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/swarupcs/LeetCode/tree/master/0792-binary-search) |
 | [0854-making-a-large-island](https://github.com/swarupcs/LeetCode/tree/master/0854-making-a-large-island) |
+| [0907-koko-eating-bananas](https://github.com/swarupcs/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/swarupcs/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/swarupcs/LeetCode/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/swarupcs/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/swarupcs/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/swarupcs/LeetCode/tree/master/2047-find-a-peak-element-ii) |
