@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/swarupcs/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/swarupcs/LeetCode/tree/master/0051-n-queens) |
+| [0055-jump-game](https://github.com/swarupcs/LeetCode/tree/master/0055-jump-game) |
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/swarupcs/LeetCode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/swarupcs/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -267,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/swarupcs/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/swarupcs/LeetCode/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/swarupcs/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0119-pascals-triangle-ii](https://github.com/swarupcs/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0152-maximum-product-subarray](https://github.com/swarupcs/LeetCode/tree/master/0152-maximum-product-subarray) |
@@ -329,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/swarupcs/LeetCode/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/swarupcs/LeetCode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/swarupcs/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/swarupcs/LeetCode/tree/master/0455-assign-cookies) |
