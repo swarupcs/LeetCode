@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/swarupcs/LeetCode/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/swarupcs/LeetCode/tree/master/0055-jump-game) |
+| [0057-insert-interval](https://github.com/swarupcs/LeetCode/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/swarupcs/LeetCode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/swarupcs/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
