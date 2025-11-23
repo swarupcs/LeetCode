@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/swarupcs/LeetCode/tree/master/0792-binary-search) |
 | [0854-making-a-large-island](https://github.com/swarupcs/LeetCode/tree/master/0854-making-a-large-island) |
 | [0907-koko-eating-bananas](https://github.com/swarupcs/LeetCode/tree/master/0907-koko-eating-bananas) |
+| [0930-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/swarupcs/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0560-subarray-sum-equals-k](https://github.com/swarupcs/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
+| [0930-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/swarupcs/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/swarupcs/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -141,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/swarupcs/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/swarupcs/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0930-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1940-maximum-xor-for-each-query](https://github.com/swarupcs/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
 ## Tree
@@ -402,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0076-minimum-window-substring](https://github.com/swarupcs/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/swarupcs/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0930-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 ## Design
 |  |
