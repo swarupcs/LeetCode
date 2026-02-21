@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/swarupcs/LeetCode/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/swarupcs/LeetCode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/swarupcs/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/swarupcs/LeetCode/tree/master/0283-move-zeroes) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0142-linked-list-cycle-ii](https://github.com/swarupcs/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/swarupcs/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0560-subarray-sum-equals-k](https://github.com/swarupcs/LeetCode/tree/master/0560-subarray-sum-equals-k) |
@@ -132,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/swarupcs/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/swarupcs/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/swarupcs/LeetCode/tree/master/0455-assign-cookies) |
@@ -142,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/swarupcs/LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/swarupcs/LeetCode/tree/master/0229-majority-element-ii) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/swarupcs/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/swarupcs/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 ## Prefix Sum
