@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/swarupcs/LeetCode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/swarupcs/LeetCode/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/swarupcs/LeetCode/tree/master/0057-insert-interval) |
+| [0073-set-matrix-zeroes](https://github.com/swarupcs/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/swarupcs/LeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/swarupcs/LeetCode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/swarupcs/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -83,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/swarupcs/LeetCode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/swarupcs/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0073-set-matrix-zeroes](https://github.com/swarupcs/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/swarupcs/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
@@ -286,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0048-rotate-image](https://github.com/swarupcs/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/swarupcs/LeetCode/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/swarupcs/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/swarupcs/LeetCode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/swarupcs/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
