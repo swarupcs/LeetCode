@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/swarupcs/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/swarupcs/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/swarupcs/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0460-lfu-cache](https://github.com/swarupcs/LeetCode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/swarupcs/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/swarupcs/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
@@ -469,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0206-reverse-linked-list](https://github.com/swarupcs/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/swarupcs/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/swarupcs/LeetCode/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/swarupcs/LeetCode/tree/master/0460-lfu-cache) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/swarupcs/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
@@ -496,6 +498,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/swarupcs/LeetCode/tree/master/0146-lru-cache) |
 | [0232-implement-queue-using-stacks](https://github.com/swarupcs/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/swarupcs/LeetCode/tree/master/0295-find-median-from-data-stream) |
+| [0460-lfu-cache](https://github.com/swarupcs/LeetCode/tree/master/0460-lfu-cache) |
 | [0937-online-stock-span](https://github.com/swarupcs/LeetCode/tree/master/0937-online-stock-span) |
 ## Data Stream
 |  |
@@ -531,6 +534,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/swarupcs/LeetCode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/swarupcs/LeetCode/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
 
 
