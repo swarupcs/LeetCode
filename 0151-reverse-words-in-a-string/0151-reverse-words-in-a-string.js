@@ -20,13 +20,9 @@ var reverseWords = function(s) {
     let j = 0;
 
     while (j < n) {
-        while (j < n && arr[j] === " ") {
-            j++;
-        }
+        while (j < n && arr[j] === " ") j++;
 
-        if (j === n) {
-            break;
-        }
+        if (j >= n) break;
 
         const start = i;
 
@@ -36,13 +32,9 @@ var reverseWords = function(s) {
 
         reverse(start, i - 1);
 
-        if (j < n) {
-            arr[i++] = " ";
-        }
-    }
+        while (j < n && arr[j] === " ") j++;
 
-    if (i > 0 && arr[i - 1] === " ") {
-        i--;
+        if (j < n) arr[i++] = " ";
     }
 
     return arr.slice(0, i).join("");
