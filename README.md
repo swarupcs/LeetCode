@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/swarupcs/LeetCode/tree/master/0721-accounts-merge) |
 | [0796-rotate-string](https://github.com/swarupcs/LeetCode/tree/master/0796-rotate-string) |
 | [0868-push-dominoes](https://github.com/swarupcs/LeetCode/tree/master/0868-push-dominoes) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/swarupcs/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1957-delete-characters-to-make-fancy-string](https://github.com/swarupcs/LeetCode/tree/master/1957-delete-characters-to-make-fancy-string) |
 | [2490-circular-sentence](https://github.com/swarupcs/LeetCode/tree/master/2490-circular-sentence) |
 | [3163-string-compression-iii](https://github.com/swarupcs/LeetCode/tree/master/3163-string-compression-iii) |
@@ -355,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
 | [0868-push-dominoes](https://github.com/swarupcs/LeetCode/tree/master/0868-push-dominoes) |
 | [0943-sum-of-subarray-minimums](https://github.com/swarupcs/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/swarupcs/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/swarupcs/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/swarupcs/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Topological Sort
