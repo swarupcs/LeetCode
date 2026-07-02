@@ -132,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/swarupcs/LeetCode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/swarupcs/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0038-count-and-say](https://github.com/swarupcs/LeetCode/tree/master/0038-count-and-say) |
 | [0076-minimum-window-substring](https://github.com/swarupcs/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/swarupcs/LeetCode/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
