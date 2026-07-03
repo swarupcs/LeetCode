@@ -13,18 +13,29 @@
  */
 var inorderTraversal = function(root) {
     const ans = [];
+    let curr = root;
 
-    const inorder = (node) => {
-        if (node === null) {
-            return;
+    while (curr !== null) {
+        if (curr.left === null) {
+            ans.push(curr.val);
+            curr = curr.right;
+        } else {
+            let prev = curr.left;
+
+            while (prev.right !== null && prev.right !== curr) {
+                prev = prev.right;
+            }
+
+            if (prev.right === null) {
+                prev.right = curr;
+                curr = curr.left;
+            } else {
+                prev.right = null;
+                ans.push(curr.val);
+                curr = curr.right;
+            }
         }
-
-        inorder(node.left);
-        ans.push(node.val);
-        inorder(node.right);
-    };
-
-    inorder(root);
+    }
 
     return ans;
 };
