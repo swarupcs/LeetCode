@@ -207,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/swarupcs/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
@@ -239,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/swarupcs/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Two Pointers
 |  |
@@ -277,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/swarupcs/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/swarupcs/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/swarupcs/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/swarupcs/LeetCode/tree/master/0547-number-of-provinces) |
@@ -296,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0126-word-ladder-ii](https://github.com/swarupcs/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/swarupcs/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/swarupcs/LeetCode/tree/master/0130-surrounded-regions) |
+| [0199-binary-tree-right-side-view](https://github.com/swarupcs/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/swarupcs/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/swarupcs/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0542-01-matrix](https://github.com/swarupcs/LeetCode/tree/master/0542-01-matrix) |
