@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/swarupcs/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/swarupcs/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/swarupcs/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/swarupcs/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/swarupcs/LeetCode/tree/master/1036-rotting-oranges) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/swarupcs/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0700-search-in-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/swarupcs/LeetCode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -255,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/swarupcs/LeetCode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/swarupcs/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/swarupcs/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/swarupcs/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1753-path-with-minimum-effort](https://github.com/swarupcs/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/swarupcs/LeetCode/tree/master/1901-find-a-peak-element-ii) |
@@ -285,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0700-search-in-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/swarupcs/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/swarupcs/LeetCode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Two Pointers
 |  |
 | ------- |
@@ -548,6 +552,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0901-online-stock-span](https://github.com/swarupcs/LeetCode/tree/master/0901-online-stock-span) |
 | [0937-online-stock-span](https://github.com/swarupcs/LeetCode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/swarupcs/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [2227-sum-of-subarray-ranges](https://github.com/swarupcs/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
@@ -561,6 +566,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0901-online-stock-span](https://github.com/swarupcs/LeetCode/tree/master/0901-online-stock-span) |
 | [0937-online-stock-span](https://github.com/swarupcs/LeetCode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/swarupcs/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/swarupcs/LeetCode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [2227-sum-of-subarray-ranges](https://github.com/swarupcs/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Linked List
 |  |
