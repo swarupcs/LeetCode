@@ -5,24 +5,28 @@
  */
 var combinationSum = function(candidates, target) {
     let ans = [];
-    let current = [];
-    generate(0, ans, current, candidates, target);
+    let combination = [];
+
+    helper(0, candidates, combination, target, ans);
     return ans;
 };
 
-function generate(index, ans, current, candidates, target) {
-    if (target === 0) {
-        ans.push([...current]); // copy of current
+function helper(index, candidates, combination, target, ans) {
+    if(target === 0) {
+        ans.push([...combination]);
         return;
     }
 
-    if (index === candidates.length || target < 0) return;
+    if(index === candidates.length || target < 0) {
+        return;
+    }
 
-    // Choice 1: Skip current candidate → move to next index
-    generate(index + 1, ans, current, candidates, target);
+    combination.push(candidates[index]);
 
-    // Choice 2: Take current candidate (can reuse same index)
-    current.push(candidates[index]);
-    generate(index, ans, current, candidates, target - candidates[index]);
-    current.pop(); // backtrack
+    helper(index, candidates, combination, target - candidates[index], ans);
+
+    combination.pop();
+
+    helper(index + 1, candidates, combination, target, ans);
+
 }
