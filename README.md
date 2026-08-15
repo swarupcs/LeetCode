@@ -709,6 +709,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/swarupcs/LeetCode/tree/master/0133-clone-graph) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/swarupcs/LeetCode/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
 
 
